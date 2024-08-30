@@ -5,7 +5,7 @@
 // source: v1/weaviate.proto
 
 /* eslint-disable */
-import { type CallContext, type CallOptions } from "nice-grpc-common";
+import { CallContext, CallOptions } from "nice-grpc-common";
 import { BatchObjectsReply, BatchObjectsRequest } from "./batch.js";
 import { BatchDeleteReply, BatchDeleteRequest } from "./batch_delete.js";
 import { SearchReply, SearchRequest } from "./search_get.js";
